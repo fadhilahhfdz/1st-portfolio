@@ -3,4 +3,6 @@ const ketik = new Typed(".typing", {
     typeSpeed: 100,
     backSpeed: 50,
     loop: true,
+    showCursor: true,
+    cursorChar: '|',
 });
