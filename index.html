@@ -23,18 +23,18 @@
             <div class='menu-button'></div>
           </label>
           <ul class="menu font-semibold flex">
-            <li><a href="#" class="mx-4 text-cyan-700 hover:text-cyan-900">Home</a></li>
-            <li><a href="#" class="mx-4 text-cyan-700 hover:text-cyan-900">About</a></li>
-            <li><a href="#" class="mx-4 text-cyan-700 hover:text-cyan-900">Skills</a></li>
-            <li><a href="#" class="mx-4 text-cyan-700 hover:text-cyan-900">Portfolio</a></li>
-            <li><a href="#" class="mx-4 text-cyan-700 hover:text-cyan-900">Contact</a>
+            <li><a href="#home" class="mx-4 text-cyan-700 hover:text-cyan-900">Home</a></li>
+            <li><a href="#about" class="mx-4 text-cyan-700 hover:text-cyan-900">About</a></li>
+            <li><a href="#skills" class="mx-4 text-cyan-700 hover:text-cyan-900">Skills</a></li>
+            <li><a href="#projects" class="mx-4 text-cyan-700 hover:text-cyan-900">Projects</a></li>
+            <li><a href="#contact" class="mx-4 text-cyan-700 hover:text-cyan-900">Contact</a>
           </li>
         </div>
       </nav>
     </header>
     <main>
-      <section class="home w-screen my-16 p-10 bg-white max-h-screen">
-        <div class="max-w-screen-2xl flex flex-wrap-reverse flex-column justify-around">
+      <section id="home" class="home h-screen p-10 bg-white">
+        <div class="max-w-screen-2xl flex flex-wrap-reverse flex-column justify-around my-24">
           <div class="my-4 py-5">
             <span class="text-xl font-semibold text-gray-400">Hi There👋</span>
             <p class="mt-4 text-3xl font-semibold text-cyan-700">Fadhilah Hafidz Pradana</p>
@@ -46,9 +46,23 @@
           </div>
         </div>
       </section>
+      <section id="about" class="about h-screen p-10 bg-cyan-700 pt-24">
+        <p class="text-center text-3xl font-semibold text-white">About Me</p>
+      </section>
+      <section id="skills" class="skill h-screen p-10 bg-white pt-24">
+        <p class="text-center text-3xl font-semibold text-cyan-700">Skills</p>
+      </section>
+      <section id="projects" class="projects h-screen p-10 bg-cyan-700 pt-24">
+        <p class="text-center text-3xl font-semibold text-white">My Projects</p>
+      </section>
+      <section id="contact" class="contact h-screen p-10 bg-white pt-24">
+        <p class="text-center text-3xl font-semibold text-cyan-700">Contact Me</p>
+      </section>
     </main>
     <footer>
-
+      <div class="bg-cyan-700 h-28">
+        <p class="text-center text-white pt-11">&#169; 2024 Created By Fadhilah Hafidz Pradana, All Rights Reserved</p>
+      </div>
     </footer>
     
     <script src="assets/js/script.js"></script>
