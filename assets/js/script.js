@@ -1,12 +1,3 @@
-const ketik = new Typed(".typing", {
-    strings: ["WEB DEVELOPER", "FRONTEND DEVELOPER", "UI DESIGNER"],
-    typeSpeed: 100,
-    backSpeed: 50,
-    loop: true,
-    showCursor: true,
-    cursorChar: '|',
-});
-
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -21,3 +12,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+
+var splide = new Splide( '.splide', {
+    type   : 'loop',
+    perPage: 3,
+    perMove: 1,
+  } );
+  
+  splide.mount();
