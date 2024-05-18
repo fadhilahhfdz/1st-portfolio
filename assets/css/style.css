@@ -72,6 +72,13 @@
   transform: rotate(-405deg);
 }
 
+@media  (max-width: 407px) {
+  .card {
+    max-width: 100px;
+    max-height: 100px;
+  }
+}
+
 @media (max-width: 897px) {
   .card {
     max-width: 130px;
@@ -125,4 +132,14 @@
 
 .sosial-media li a:hover {
   color: rgb(21 94 117);
+}
+
+.sosmed-footer li a {
+  font-size: 2rem;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.sosmed-footer li a:hover {
+  color: rgb(209 213 219);
 }
