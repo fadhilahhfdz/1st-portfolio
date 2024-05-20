@@ -2740,6 +2740,10 @@ video {
     width: 24rem;
   }
 
+  .md\:p-5 {
+    padding: 1.25rem;
+  }
+
   .md\:pt-5 {
     padding-top: 1.25rem;
   }
