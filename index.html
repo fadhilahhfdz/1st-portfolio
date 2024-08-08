@@ -11,7 +11,7 @@
 <body>
 
     <!-- header -->
-    <header class="sticky top-0">
+    <header class="sticky top-0 z-50">
       <nav class="navbar bg-white shadow-md flex flex-row justify-between px-16">
         <div class="p-4">
           <a href="">
@@ -39,7 +39,7 @@
     <main>
       <section id="home" class="home h-screen p-10 bg-white">
         <div class="max-w-screen-2xl flex flex-wrap-reverse flex-column justify-around my-14 md:my-24">
-          <div class="my-6 py-5">
+          <div class="my-6 py-5 slide-up">
             <span class="text-xl font-semibold text-gray-400">Hi There👋</span>
             <p class="mt-4 text-3xl font-semibold text-cyan-700"><span class="font-semibold text-gray-700">I'M </span>Fadhilah Hafidz Pradana</p>
             <h3 class="text-2xl font-semibold text-gray-700 mt-1">Informatics Engineering Student</h3>
@@ -56,26 +56,26 @@
               </div>
             </div>
           </div>
-          <div class="profil">
+          <div class="profil slide-up">
             <img class="imgprofil rounded-full" src="assets/img/profile.jpg" width="350px" alt="profil">
           </div>
         </div>
       </section>
       <section id="about" class="about h-auto p-10 bg-cyan-700 pt-24">
-        <p class="text-center text-3xl font-semibold text-white">About Me</p>
+        <p class="text-center text-3xl font-semibold text-white slide-up">About Me</p>
         <div class="container flex flex-wrap-reverse flex-column justify-around my-24">
           <div class=" py-5 w-96">
-            <p class="text-white text-xl mt-6 xl:mt-0">Hello everyone!, I am Fadhilah Hafidz Pradana, I am an Informatics Engineering student at Amikom University Yogyakarta. I have a high interest in the world of technology, especially in programming. I am interested becoming a Backend Developer. Currently my expertise in the backend is using the PHP programming language with the Laravel framework, apart from that I also have expertise using HTML, CSS and JavaScript. I am committed to continuing to develop into a reliable Backend Developer.</p>
+            <p class="text-white text-xl mt-6 xl:mt-0 slide-up">Hello everyone!, I am Fadhilah Hafidz Pradana, I am an Informatics Engineering student at Amikom University Yogyakarta. I have a high interest in the world of technology, especially in programming. I am interested becoming a Backend Developer. Currently my expertise in the backend is using the PHP programming language with the Laravel framework, apart from that I also have expertise using HTML, CSS and JavaScript. I am committed to continuing to develop into a reliable Backend Developer.</p>
           </div>
           <div class="me">
-            <img class="rounded-md shadow-2xl mt-6" src="assets/img/aboutme.jpg" width="300px" alt="me">
+            <img class="rounded-md shadow-2xl mt-6 slide-up" src="assets/img/aboutme.jpg" width="300px" alt="me">
           </div>
         </div>
       </section>
       <section id="skills" class="skill h-auto md:h-screen p-10 bg-white pt-24">
-        <p class="text-center text-3xl font-semibold text-cyan-700">Skills</p>
-        <p class="text-3xl font-semibold mt-4">TechStack</p>
-        <div class="container w-100 h-100 rounded-md p-1 md:p-5 flex flex-wrap">
+        <p class="text-center text-3xl font-semibold text-cyan-700 slide-up">Skills</p>
+        <p class="text-3xl font-semibold mt-4 slide-up">TechStack</p>
+        <div class="container w-100 h-100 rounded-md p-1 md:p-5 flex flex-wrap slide-up">
           <div class="card w-32 h-32 py-3 px-4 m-2 rounded-lg shadow-xl border-4 border-cyan-700 hover:bg-cyan-700 hover:text-white flex flex-col justify-center items-center transition-colors ease-in-out duration-300">
             <img class="m-2 p-1" src="assets/img/html-5.png" alt="" width="100px">
           </div>
@@ -104,8 +104,8 @@
             <img class="m-2 p-1" src="assets/img/bootstrap.png" alt="" width="100px">
           </div>
         </div>
-        <p class="text-3xl font font-semibold">Tools</p>
-        <div class="container w-100 h-100 rounded-md p-1 md:p-5 flex flex-wrap">
+        <p class="text-3xl font font-semibold slide-up">Tools</p>
+        <div class="container w-100 h-100 rounded-md p-1 md:p-5 flex flex-wrap slide-up">
           <div class="card w-32 h-32 p-3 m-2 rounded-lg shadow-xl border-4 border-cyan-700 hover:bg-cyan-700 hover:text-white flex flex-col justify-center items-center transition-colors ease-in-out duration-300">
             <img class="m-2 p-1" src="assets/img/vscode.png" alt="" width="100px">
           </div>
@@ -121,15 +121,15 @@
         </div>
       </section>
       <section id="projects" class="projects h-auto p-10 bg-cyan-700 pt-24">
-        <p class="text-center text-3xl font-semibold text-white">My Projects</p>
-        <div class="container w-100 h-100 rounded-md px-5 py-7 flex flex-wrap gap-4 justify-center">
+        <p class="text-center text-3xl font-semibold text-white slide-up">My Projects</p>
+        <div class="container w-100 h-100 rounded-md px-5 py-7 flex flex-wrap gap-4 justify-center slide-up">
           <div class="w-96 bg-white shadow-lg rounded-lg">
-            <img class="w-full p-3 rounded-2xl h-56 object-cover object-center" src="assets/img/rps.jpg" alt="RPS">
+            <img class="w-full p-3 rounded-2xl h-56 object-cover object-center" src="assets/img/restful.jpg" alt="Restful API">
             <div class="p-4">
-                <h1 class="text-gray-900 font-bold text-xl mb-2">RPS WebApp</h1>
-                <p class="text-gray-700 text-base">Create Static RPS WebApp D3 Informatics Engineering 2022/2023</p>
+                <h1 class="text-gray-900 font-bold text-xl mb-2">Restful API User</h1>
+                <p class="text-gray-700 text-base">Create a Restful API user using Express JS and React JS</p>
                 <div class="mt-4 flex">
-                  <a href="https://fadhilahhfdz.github.io/final-project/" target="_blank" class="bg-cyan-700 hover:bg-cyan-900 text-white py-2 px-4 rounded">Preview</a>
+                  <a href="https://github.com/fadhilahhfdz/frontend-Express-React.git" target="_blank" class="bg-cyan-700 hover:bg-cyan-900 text-white py-2 px-4 rounded">Github</a>
                 </div>
             </div>
           </div>
@@ -146,20 +146,20 @@
           <div class="w-96 bg-white shadow-lg rounded-lg overflow-hidden">
             <img class="w-full p-3 rounded-2xl h-56 object-cover object-center" src="assets/img/rpsCI.jpg" alt="rps">
             <div class="p-4">
-                <h1 class="text-gray-900 font-bold text-xl mb-2">RPS WebApp CRUD</h1>
-                <p class="text-gray-700 text-base">Create a website RPS WebApp using framework CodeIgniter with features CRUD</p>
+                <h1 class="text-gray-900 font-bold text-xl mb-2">RPS WebApp</h1>
+                <p class="text-gray-700 text-base">Create a website RPS WebApp using framework CodeIgniter</p>
                 <div class="mt-4 flex">
                   <a href="https://github.com/fadhilahhfdz/rps-web-app-UAS-PerancanganWeb" target="_blank" class="bg-cyan-700 hover:bg-cyan-900 text-white py-2 px-4 rounded">Github</a>
                 </div>
             </div>
           </div>
           <div class="w-96 bg-white shadow-lg rounded-lg overflow-hidden">
-            <img class="w-full p-3 rounded-2xl h-56 object-cover object-center" src="assets/img/laravel.jpg" alt="rak buku">
+            <img class="w-full p-3 rounded-2xl h-56 object-cover object-center" src="assets/img/barang.jpg" alt="Manajemen Barang">
             <div class="p-4">
-                <h1 class="text-gray-900 font-bold text-xl mb-2">CRUD Rak Buku</h1>
-                <p class="text-gray-700 text-base">Create a simple Website CRUD using framework laravel with web template</p>
+                <h1 class="text-gray-900 font-bold text-xl mb-2">Microservice Manajemen Barang</h1>
+                <p class="text-gray-700 text-base">Create an item management application using microservice technology</p>
                 <div class="mt-4 flex">
-                  <a href="https://github.com/fadhilahhfdz/latihan-app" target="_blank" class="bg-cyan-700 hover:bg-cyan-900 text-white py-2 px-4 rounded">Github</a>
+                  <a href="https://github.com/fadhilahhfdz/react-microservices-frontend.git" target="_blank" class="bg-cyan-700 hover:bg-cyan-900 text-white py-2 px-4 rounded">Github</a>
                 </div>
             </div>
           </div>
@@ -189,9 +189,9 @@
         </div>
       </section>
       <section id="contact" class="contact h-auto p-10 bg-white pt-24">
-        <p class="text-center text-3xl font-semibold text-cyan-700">Contact Me</p>
-        <p class="text-3xl font-semibold my-16 text-cyan-700">Let's Talk About Next Projects 👇</p>
-        <div class="container w-100 h-100 mb-16 flex flex-wrap justify-around">
+        <p class="text-center text-3xl font-semibold text-cyan-700 slide-up">Contact Me</p>
+        <p class="text-3xl font-semibold my-16 text-cyan-700 slide-up">Let's Talk About Next Projects 👇</p>
+        <div class="container w-100 h-100 mb-16 flex flex-wrap justify-around slide-up">
           <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=fadhilahhafidz010@gmail.com" target="_blank">
             <div class="cards w-80 md:w-96 h-28 rounded-md shadow-xl hover:shadow-2xl transition ease-in-out duration-300 border-4 border-cyan-700 my-5 p-2 flex">
               <div>
