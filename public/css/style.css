@@ -1902,10 +1902,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-white\/80 {
-  background-color: rgb(255 255 255 / 0.8);
-}
-
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -2740,8 +2736,8 @@ video {
     margin-bottom: 6rem;
   }
 
-  .md\:h-screen {
-    height: 100vh;
+  .md\:h-auto {
+    height: auto;
   }
 
   .md\:w-96 {
